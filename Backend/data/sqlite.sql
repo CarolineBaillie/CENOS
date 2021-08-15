@@ -1,0 +1,11 @@
+-- SQLite
+CREATE TABLE notes (
+ id INTEGER PRIMARY KEY,
+ type TEXT NOT NULL,
+ info TEXT NOT NULL,
+ link TEXT NOT NULL
+);
+
+SELECT * FROM notes
+
+DELETE FROM notes WHERE id=1

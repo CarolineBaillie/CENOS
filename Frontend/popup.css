@@ -1,0 +1,26 @@
+/* Stylesheet for extension popup */
+* {
+    font-family: Verdana, sans-serif;
+}
+div {
+    padding: 5px;
+}
+.buttons {
+    /* text-align: center; */
+    margin: auto;
+}
+body {
+    height: 150px;
+    width: 205px;
+}
+#sum {
+    margin-left: 20%;
+    margin-top:2.5%;
+}
+.btn-light {
+    background-color:white !important;
+    border-color: white !important;
+    padding:2px !important;
+    margin-left: 32.5px !important;
+    color:blue !important;
+}

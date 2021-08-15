@@ -1,0 +1,26 @@
+<!doctype html>
+<html style="min-height:auto" >
+    <head>
+        <title>chrome-extension-template</title>
+        <script src="popup.js"></script>
+        <link rel="stylesheet" href="popup.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    </head>
+    <body>
+    </body>
+    <body>
+        <div class="buttons">
+            <button type="button" id="saveNav" class="btn btn-light">Save</button>
+            <button type="button" id="sumNav" class="btn btn-light">Sum</button>
+            <hr>
+        </div>
+        <div id="saveClass">
+            <h3 id="cat">Category</h3>
+            <input type="text" id="catInput" name="catInput"><br><br>
+            <button type="button" id="btn" class="btn btn-primary">Submit</button>
+        </div>
+        <div id="sumClass" style="display: none;">
+            <button type="button" id="sum" class="btn btn-outline-danger">Summarize</button>
+        </div>
+    </body>
+</html>
